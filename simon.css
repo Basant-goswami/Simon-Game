@@ -1,0 +1,74 @@
+h1,
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Red,
+.Blue,
+.Yellow,
+.Black {
+    height: 200px;
+    width: 200px;
+    border-radius: 18px;
+    margin: 4px;
+    color: green;
+    cursor: pointer;
+}
+
+.Red {
+    background-color: #FF0000;
+}
+
+.Yellow {
+    background-color: #FFFF00;
+}
+
+.Black {
+    background-color: #000000;
+}
+
+.Blue {
+    background-color: #FF00FF;
+}
+
+.flash {
+    background-color: white;
+}
+
+.Userflash {
+    background-color: green;
+}
+
+a {
+    text-align: right;
+
+}
+
+.rules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+    font-family: cursive;
+}
+
+.rules h2 {
+    color: red;
+}
+
+.rules ol li {
+    background-color: yellow;
+    line-height: 50px;
+}
